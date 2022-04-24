@@ -1,0 +1,13 @@
+server:
+  port : 8082
+
+management:
+  endpoint:
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: prometheus
